@@ -1,0 +1,71 @@
+.registration-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #82c0fff1;
+}
+
+
+.registration-heading {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+
+.field-input:focus {
+  outline: none;
+  border-color: blue;
+}
+
+.registration-form-body {
+  background-image: url("https://cdn.pixabay.com/photo/2017/02/08/17/24/fantasy-2049567_640.jpg");
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.submit-button:hover {
+  background-color:  hsl(211, 100%, 79%);
+}
+
+.error-message {
+  color: red;
+  font-size: 3vh;
+}
+.login{
+  margin-left: 20%;
+}
+.hel{
+  text-decoration: none;
+  color: white;
+}
+.submit-button {
+  width: 100%;
+  background-color: hsl(211, 83%, 79%);
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  font-weight: 700;
+}
+.field-input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border: 2px solid #ced4da;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
